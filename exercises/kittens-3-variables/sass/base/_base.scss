@@ -1,0 +1,34 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: $tan;
+  font-family: $base-font-family;
+  margin: 0;
+}
+
+a {
+  color: $blue;
+  &:hover { color: $purple; }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.subcontent {
+  background: $white;
+  padding: 2em 0 3em;
+}
+
+.search { float: right; }

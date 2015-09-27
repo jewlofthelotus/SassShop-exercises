@@ -1,0 +1,21 @@
+$blue:      #506f8e;
+$purple:    #aea4ad;
+$beige:     #d9d0cb;
+$tan:       #eee4da;
+$white:     #ffffff;
+$blue-dark: darken($blue, 10);
+
+$base-font-family: 'Didact Gothic', sans-serif;
+$logo-font-family: 'Ribeye Marrow', cursive;
+
+$page-width:     1200px;
+$kitten-width:   $page-width / 4;
+$location-width: 20%;
+$info-width:     (100 - $location-width) / 2;
+
+$border-width:  10px;
+$border-radius: 20px;
+
+$scale-amount:  1.1;
+
+$breakpoint-small: 480px;

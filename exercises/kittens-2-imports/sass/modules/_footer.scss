@@ -1,0 +1,30 @@
+.footer {
+  background: #506F8E;
+  border-top: 10px solid #EEE4DA;
+
+  nav {
+    float: left;
+
+    a {
+      color: #AEA4AD;
+      display: block;
+      padding: 1em;
+
+      &:hover { color: #D9D0CB; }
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li { display: inline-block; }
+}
+
+.copy {
+  color: #D9D0CB;
+  float: right;
+  margin: 1em 0;
+}

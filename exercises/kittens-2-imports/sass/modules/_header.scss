@@ -1,0 +1,42 @@
+.header {
+  background: #AEA4AD;
+  border-bottom: 10px solid #fff;
+  padding: 1em;
+
+  h1 {
+    color: #506F8E;
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 3em;
+    margin: .25em 0;
+    text-shadow: 1px 1px 0px #D9D0CB;
+  }
+
+  nav {
+    float: right;
+
+    a {
+      background: #506F8E;
+      border-radius: 20px;
+      color: #EEE4DA;
+      display: block;
+      margin-right: 1em;
+      padding: .5em 1em;
+      text-decoration: none;
+
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li { display: inline-block; }
+}

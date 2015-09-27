@@ -1,0 +1,141 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #eee4da;
+  font-family: "Didact Gothic", sans-serif;
+  margin: 0; }
+
+a {
+  color: #506f8e; }
+  a:hover {
+    color: #aea4ad; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px; }
+
+.subcontent {
+  background: #ffffff;
+  padding: 2em 0 3em; }
+
+.search {
+  float: right; }
+
+.header {
+  background: #aea4ad;
+  border-bottom: 10px solid #ffffff;
+  padding: 1em; }
+  .header h1 {
+    color: #506f8e;
+    font-family: "Ribeye Marrow", cursive;
+    font-size: 3em;
+    margin: .25em 0;
+    text-shadow: 1px 1px 0px #d9d0cb; }
+  .header nav {
+    float: right; }
+    .header nav a {
+      background: #506f8e;
+      border-radius: 20px;
+      color: #eee4da;
+      display: block;
+      margin-right: 1em;
+      padding: .5em 1em;
+      text-decoration: none; }
+      .header nav a:hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        background-color: #3e556d; }
+  .header ul {
+    list-style-type: none;
+    padding: 0; }
+  .header li {
+    display: inline-block; }
+
+.footer {
+  background: #506f8e;
+  border-bottom: 10px solid #eee4da; }
+  .footer nav {
+    float: left; }
+    .footer nav a {
+      color: #aea4ad;
+      display: block;
+      padding: 1em; }
+      .footer nav a:hover {
+        color: #d9d0cb; }
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .footer li {
+    display: inline-block; }
+
+.copy {
+  color: #d9d0cb;
+  float: right;
+  margin: 1em 0; }
+
+.kittens {
+  list-style-type: none;
+  padding: 0; }
+  .kittens li {
+    border-radius: 20px;
+    float: left;
+    margin-bottom: 2em;
+    text-align: center;
+    width: 300px; }
+    .kittens li:hover {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
+  .kittens img {
+    border: 10px solid #ffffff;
+    border-radius: 20px; }
+  .kittens label {
+    font-weight: bold; }
+
+.info {
+  float: left;
+  padding-right: 4em;
+  width: 40%; }
+  .info ul {
+    list-style-type: none;
+    padding: 0; }
+  .info li {
+    border-bottom: 1px dotted #eee4da;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em; }
+  .info a {
+    font-size: 1.25em;
+    text-decoration: none; }
+  .info .btn {
+    color: #aea4ad;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none; }
+    .info .btn:hover {
+      color: #506f8e; }
+
+.location {
+  padding-right: 0;
+  width: 20%; }
+  .location dt {
+    color: #506f8e;
+    font-weight: bold; }
+  .location dd {
+    margin: 0; }
+
+/*# sourceMappingURL=application.css.map */

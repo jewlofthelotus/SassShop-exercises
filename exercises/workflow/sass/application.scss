@@ -1,0 +1,19 @@
+$green: #bada55;
+$white: #ffffff;
+$black: #000000;
+
+.header {
+  background: $green;
+  border-bottom: 5px solid $black;
+  color: $white;
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $black;
+      border-bottom: $white;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.header {
+  background: $purple;
+  border-bottom: $border-width solid $white;
+  padding: 1em;
+
+  h1 {
+    color: $blue;
+    font-family: $logo-font-family;
+    font-size: 3em;
+    margin: .25em 0;
+    text-shadow: 1px 1px 0px $beige;
+  }
+
+  nav {
+    float: right;
+
+    a {
+      border-radius: $border-radius;
+      background: $blue;
+      color: $tan;
+      margin-right: 1em;
+      padding: .5em 1em;
+      text-decoration: none;
+
+      &:hover {
+        @include scale($scale-amount);
+        background-color: $blue-dark;
+      }
+    }
+  }
+
+  ul {
+    @extend .navlist--inline;
+    padding: 0;
+  }
+}

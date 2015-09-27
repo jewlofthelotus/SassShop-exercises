@@ -1,0 +1,201 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EEE4DA;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #506F8E;
+}
+
+a:hover {
+  color: #AEA4AD;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header nav {
+  float: right;
+}
+
+.header {
+  background: #AEA4AD;
+  border-bottom: 10px solid #fff;
+  padding: 1em;
+}
+
+.header h1 {
+  color: #506F8E;
+  font-family: 'Ribeye Marrow', cursive;
+  font-size: 3em;
+  margin: .25em 0;
+  text-shadow: 1px 1px 0px #D9D0CB;
+}
+
+.header nav {
+  float: right;
+}
+
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header nav li {
+  display: inline-block;
+}
+
+.header nav a {
+  background: #506F8E;
+  border-radius: 20px;
+  color: #EEE4DA;
+  display: block;
+  margin-right: 1em;
+  padding: .5em 1em;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.footer {
+  background: #506F8E;
+  border-top: 10px solid #EEE4DA;
+}
+
+.footer .copy {
+  color: #D9D0CB;
+  float: right;
+  margin: 1em 0;
+}
+
+.footer nav {
+  float: left;
+}
+
+.footer nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer nav li {
+  display: inline-block;
+}
+
+.footer nav a {
+  color: #AEA4AD;
+  display: block;
+  padding: 1em;
+}
+
+.footer nav a:hover {
+  color: #D9D0CB;
+}
+
+.kittens {
+  list-style-type: none;
+  padding: 0;
+}
+
+.kittens li {
+  border-radius: 20px;
+  float: left;
+  margin-bottom: 2em;
+  text-align: center;
+  width: 300px;
+}
+
+.kittens li:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.kittens li img {
+  border: 10px solid #fff;
+  border-radius: 20px;
+}
+
+.kittens li label {
+  font-weight: bold;
+}
+
+.subcontent {
+  background: #fff;
+  padding: 2em 0 3em;
+}
+
+.search {
+  float: right;
+}
+
+.news, .events, .location {
+  float: left;
+  padding-right: 4em;
+  width: 40%;
+}
+
+.news ul, .events ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news li, .events li {
+  border-bottom: 1px dotted #EEE4DA;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+}
+
+.news li a, .events li a {
+  font-size: 1.25em;
+  text-decoration: none;
+}
+
+.news .btn, .events .btn {
+  color: #AEA4AD;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.news .btn:hover, .events .btn:hover {
+  color: #506F8E;
+}
+
+.location {
+  padding-right: 0;
+  width: 20%;
+}
+
+.location dt {
+  color: #506F8E;
+  font-weight: bold;
+}
+
+.location dd {
+  margin: 0;
+}

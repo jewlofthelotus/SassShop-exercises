@@ -1,0 +1,43 @@
+.info {
+  float: left;
+  padding-right: 4em;
+  width: 40%;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    border-bottom: 1px dotted #EEE4DA;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+  }
+
+  a {
+    font-size: 1.25em;
+    text-decoration: none;
+  }
+
+  .btn {
+    color: #AEA4AD;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover { color: #506F8E; }
+  }
+}
+
+.location {
+  padding-right: 0;
+  width: 20%;
+
+  dt {
+    color: #506F8E;
+    font-weight: bold;
+  }
+
+  dd { margin: 0; }
+}

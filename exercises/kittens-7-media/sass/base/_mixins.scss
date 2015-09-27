@@ -1,0 +1,13 @@
+@mixin scale($amount) {
+  -webkit-transform: scale($amount);
+      -ms-transform: scale($amount);
+          transform: scale($amount);
+}
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == mobile-large {
+    @media screen and (max-width: $breakpoint-small) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.footer {
+  background: $blue;
+  border-top: $border-width solid $tan;
+
+  nav {
+    float: left;
+
+    a {
+      color: $purple;
+      display: block;
+      padding: 1em;
+
+      &:hover { color: $beige; }
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li { display: inline-block; }
+}
+
+.copy {
+  color: $beige;
+  float: right;
+  margin: 1em 0;
+}

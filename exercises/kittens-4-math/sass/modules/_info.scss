@@ -1,0 +1,43 @@
+.info {
+  float: left;
+  padding-right: 4em;
+  width: $info-width;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    border-bottom: 1px dotted $tan;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+  }
+
+  a {
+    font-size: 1.25em;
+    text-decoration: none;
+  }
+
+  .btn {
+    color: $purple;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover { color: $blue; }
+  }
+}
+
+.location {
+  padding-right: 0;
+  width: $location-width;
+
+  dt {
+    color: $blue;
+    font-weight: bold;
+  }
+
+  dd { margin: 0; }
+}

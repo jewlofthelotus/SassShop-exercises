@@ -1,0 +1,42 @@
+.header {
+  background: $purple;
+  border-bottom: $border-width solid $white;
+  padding: 1em;
+
+  h1 {
+    color: $blue;
+    font-family: $logo-font-family;
+    font-size: 3em;
+    margin: .25em 0;
+    text-shadow: 1px 1px 0px $beige;
+  }
+
+  nav {
+    float: right;
+
+    a {
+      background: $blue;
+      border-radius: $border-radius;
+      color: $tan;
+      display: block;
+      margin-right: 1em;
+      padding: .5em 1em;
+      text-decoration: none;
+
+      &:hover {
+        -webkit-transform: scale($scale-amount);
+        -moz-transform: scale($scale-amount);
+        -o-transform: scale($scale-amount);
+        -ms-transform: scale($scale-amount);
+        transform: scale($scale-amount);
+      }
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li { display: inline-block; }
+}

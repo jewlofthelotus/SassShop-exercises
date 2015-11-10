@@ -15,8 +15,8 @@
     float: right;
 
     a {
-      border-radius: $border-radius;
       background: $blue;
+      border-radius: $border-radius;
       color: $tan;
       margin-right: 1em;
       padding: .5em 1em;
@@ -30,7 +30,7 @@
   }
 
   ul {
-    @extend .navlist--inline;
+    @extend .list--inline;
     padding: 0;
   }
 }

@@ -29,11 +29,11 @@ a {
 .search {
   float: right; }
 
-.navlist--inline, .header ul, .footer ul {
+.list--inline, .header ul, .footer ul {
   list-style-type: none; }
-  .navlist--inline li, .header ul li, .footer ul li {
+  .list--inline li, .header ul li, .footer ul li {
     display: inline-block; }
-  .navlist--inline a, .header ul a, .footer ul a {
+  .list--inline a, .header ul a, .footer ul a {
     display: block; }
 
 .header {
@@ -49,8 +49,8 @@ a {
   .header nav {
     float: right; }
     .header nav a {
-      border-radius: 20px;
       background: #506f8e;
+      border-radius: 20px;
       color: #eee4da;
       margin-right: 1em;
       padding: .5em 1em;
@@ -96,8 +96,8 @@ a {
       -ms-transform: scale(1.1);
       transform: scale(1.1); }
   .kittens img {
-    border-radius: 20px;
-    border: 10px solid #ffffff; }
+    border: 10px solid #ffffff;
+    border-radius: 20px; }
   .kittens label {
     font-weight: bold; }
 
@@ -132,5 +132,28 @@ a {
     font-weight: bold; }
   .location dd {
     margin: 0; }
+
+@media screen and (max-width: 480px) {
+  body {
+    text-align: center; }
+
+  .wrapper {
+    width: 100%; }
+
+  .search {
+    margin-top: 1em; }
+
+  .header nav,
+  .footer nav,
+  .footer .copy,
+  .search,
+  .kittens li,
+  .info {
+    float: none; }
+
+  .kittens li,
+  .info {
+    padding: 1em 0;
+    width: 100%; } }
 
 /*# sourceMappingURL=application.css.map */
